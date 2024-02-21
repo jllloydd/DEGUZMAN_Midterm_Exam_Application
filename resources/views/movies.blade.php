@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <title>Movies</title>
 </head>
-<body style="display:flex; align-items:center; flex-direction:column; font-family:arial;">
-    <h1 style="text-align:center;">Goated Movies</h1>
+<body class="d-flex flex-column align-items-center">
+        <h1 class="navbar navbar-dark bg-dark w-100 text-light">Goated Movies</h1>
     <ul>
         <li>{{$topone}}</li>
         <li>{{$toptwo}}</li>
