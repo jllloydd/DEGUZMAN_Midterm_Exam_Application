@@ -10,7 +10,7 @@ class ProductController extends Controller
         return view('movies')
             ->with('topone', 'Everything Everywhere All at Once')
             ->with('toptwo', 'Hereditary')
-            ->wtih('topthree', 'Boss Baby')
+            ->with('topthree', 'Boss Baby')
             ->with('topfour', 'The Emoji Movie')
             ->with('topfive', 'Shrek');
     }
